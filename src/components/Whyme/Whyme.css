@@ -1,10 +1,10 @@
-.skills-header {
+.whyme-header {
 	text-align: left;
 	color: white;
 	font-weight: 300;
 	font-size: 100px;
 }
-.skills-header2 {
+.whyme-header2 {
 	padding-top: 15px;
 	text-align: right;
 	color: white;
@@ -12,19 +12,14 @@
 	font-size: 35px;
 }
 
-.skills {
+.whyme {
 	max-width: 900px;
 	margin: 0 auto;
 	width: 100%; 
 }
 
-.skillsfull {
-	background-color: #2d2d2d;
+.whymefull {
+	background-color: #464646;
 
 }
 
-@media only screen and (max-width: 767px) {
-	.skills-description {
-		display: none;
-	}
-}

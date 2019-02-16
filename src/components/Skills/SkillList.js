@@ -18,12 +18,12 @@ const skillsArray = [
 	    description:
 	      "· Docker · CircleCI · Firebase · Heroku · Git · Lint · Chrome DevTools · command-line · npm"
 	  },
-	  {
-	    name: "Architecture Principles",
-	    icon: "bulb",
-	    description:
-	      "· Responsive web design · Mobile-first development · Performance optimized · Keep it simple"
-	  }
+	  // {
+	  //   name: "Architecture Principles",
+	  //   icon: "bulb",
+	  //   description:
+	  //     "· Responsive web design · Mobile-first development · Performance optimized · Keep it simple"
+	  // }
 ];
 
 const SkillList = () => {

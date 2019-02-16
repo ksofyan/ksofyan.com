@@ -21,23 +21,23 @@ class Navigation extends Component {
 			<nav>
 				<div className="navbar">
 					<a className="nav-title" href="#home"> 
-						KARINA RAMADHAN
+						KSofyan
 					</a>
 					<div className="desktop-menu">
 						<a className="nav-item" href="#home">
 							HOME
 						</a>
-						<a className="nav-item" href="#portfolio">
-							PORTFOLIO
+						<a className="nav-item" href="#about">
+							ABOUT
+						</a>
+						<a className="nav-item" href="#projects">
+							PROJECTS
 						</a>
 						<a className="nav-item" href="#skills">
 							SKILLS
 						</a>
-						<a className="nav-item" href="#about">
-							ABOUT
-						</a>
-						<a className="nav-item" href="#experience">
-							EXPERIENCE
+						<a className="nav-item" href="#whyme">
+							WHY ME? 
 						</a>
 						<a className="nav-item" href="#contact">
 							CONTACT
@@ -65,9 +65,16 @@ class Navigation extends Component {
 				 	<a 
 				 		className= "mobile-menu-link"
 				 		onClick = {this.handleMenuFold}
-				 		href= "#portfolio"
+				 		href= "#about"
 				 	>
-				 		PORTFOLIO
+				 		ABOUT
+				 	</a>
+				 	<a 
+				 		className= "mobile-menu-link"
+				 		onClick = {this.handleMenuFold}
+				 		href= "#projects"
+				 	>
+				 		PROJECTS
 				 	</a>
 				 	<a 
 				 		className= "mobile-menu-link"
@@ -79,16 +86,9 @@ class Navigation extends Component {
 				 	<a 
 				 		className= "mobile-menu-link"
 				 		onClick = {this.handleMenuFold}
-				 		href= "#about"
+				 		href= "#whyme"
 				 	>
-				 		ABOUT
-				 	</a>
-				 	<a 
-				 		className= "mobile-menu-link"
-				 		onClick = {this.handleMenuFold}
-				 		href= "#experience"
-				 	>
-				 		EXPERIENCE
+				 		WHY ME? 
 				 	</a>
 				 	<a 
 				 		className= "mobile-menu-link"

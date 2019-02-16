@@ -22,10 +22,13 @@
 		margin: 0 auto;
 	}
 }
-
+.skill-card-full{
+	margin-top: 100px;
+}
 .skills-card {
+
   margin-bottom: 20px;
-  background-color: rgba(0,0,0,0.8);
+ /* background-color: rgba(0,0,0,0.8);*/
   border: 1px solid white;
   padding: 5px;
 }

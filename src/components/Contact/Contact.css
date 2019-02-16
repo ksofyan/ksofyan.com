@@ -1,0 +1,89 @@
+.herofull {
+  min-height: 100vh;
+  display: grid;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #2d2d2d;
+}
+
+.hero-intro {
+  font-size: 20px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: 300;
+}
+
+.hero-name {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.hero-subtitle {
+  font-size: 30px;
+  margin-bottom: 50px;
+  color: white;
+  font-weight: 300;
+}
+
+.hero-arrow {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  color: white;
+  opacity: 0.8;
+  font-weight: 300;
+}
+
+.hero-arrow:hover {
+  opacity: 1;
+  color: white;
+  text-shadow: 0 0 5px silver;
+  transition: opacity 0.25s linear, text-shadow 0.25s linear;
+}
+
+.contact-link {
+  font-size: 40px;
+  position: relative;
+  bottom: 5px;
+  padding-left: 5px;
+  color: white;
+  opacity: 0.7;
+  font-weight: 300;
+}
+
+.hero-dot {
+  font-size: 40px;
+  position: relative;
+  bottom: 5px;
+  padding-left: 5px;
+  color: white;
+  opacity: 0.7;
+  font-weight: 300;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none !important;
+}
+
+.contact-link:hover {
+  opacity: 1;
+  color: white;
+  text-shadow: 0 0 5px silver;
+  transition: opacity 0.25s linear, text-shadow 0.25s linear;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-text {
+    display: none;
+  }
+  .hero-icon {
+    padding-left: 2px;
+  }
+}

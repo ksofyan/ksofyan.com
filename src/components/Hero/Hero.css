@@ -8,18 +8,28 @@
   background-color: #464646;
 }
 
-.hero-intro {
-  font-size: 20px;
-  margin-bottom: 0;
+.hero-welcome {
+  font-size: 100px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: white;
+   text-shadow: 0 0 20px silver;
+}
+
+.hero-welcome2 {
+  font-size: 30px;
+  margin-bottom: 20px;
   color: white;
   font-weight: 300;
+   text-shadow: 0 0 5px silver;
 }
 
 .hero-name {
-  font-size: 50px;
+  font-size: 100px;
   font-weight: 300;
   margin-bottom: 50px;
   color: white;
+   text-shadow: 0 0 5px silver;
 }
 
 .hero-subtitle {
@@ -27,6 +37,7 @@
   margin-bottom: 50px;
   color: white;
   font-weight: 300;
+   text-shadow: 0 0 5px silver;
 }
 
 .hero-arrow {
@@ -65,28 +76,7 @@
   font-weight: 300;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
-  text-decoration: none !important;
-}
 
-.contact-link:hover {
-  opacity: 1;
-  color: white;
-  text-shadow: 0 0 5px silver;
-  transition: opacity 0.25s linear, text-shadow 0.25s linear;
-}
-
-@media only screen and (max-width: 767px) {
-  .contact-text {
-    display: none;
-  }
-  .hero-icon {
-    padding-left: 2px;
-  }
-}
 /*
 @media (pointer: coarse) {
   .herofull {
