@@ -1,44 +1,35 @@
-.herofull {
-  min-height: 100vh;
-  display: grid;
-  background-size: cover;
-/*  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;*/
-  background-color: #464646;
+
+.trails-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-welcome {
-  font-size: 100px;
-  font-weight: 300;
-  margin-bottom: 20px;
-  color: white;
-   text-shadow: 0 0 20px silver;
+.trails-text {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  /*color: palevioletred;*/
+  color:white;
+  font-size: 5em;
+  font-weight: 800;
+  text-transform: uppercase;
+  will-change: transform, opacity;
+  overflow: hidden;
+  text-shadow: 0 0 15px silver;
 }
 
-.hero-welcome2 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  color: white;
-  font-weight: 300;
-   text-shadow: 0 0 5px silver;
+.trails-text > div {
+  overflow: hidden;
 }
 
-.hero-name {
-  font-size: 100px;
-  font-weight: 300;
-  margin-bottom: 50px;
-  color: white;
-   text-shadow: 0 0 5px silver;
-}
 
-.hero-subtitle {
-  font-size: 30px;
-  margin-bottom: 50px;
-  color: white;
-  font-weight: 300;
-   text-shadow: 0 0 5px silver;
-}
 
 .hero-arrow {
   margin-top: 50px;
@@ -56,25 +47,7 @@
   transition: opacity 0.25s linear, text-shadow 0.25s linear;
 }
 
-.contact-link {
-  font-size: 40px;
-  position: relative;
-  bottom: 5px;
-  padding-left: 5px;
-  color: white;
-  opacity: 0.7;
-  font-weight: 300;
-}
 
-.hero-dot {
-  font-size: 40px;
-  position: relative;
-  bottom: 5px;
-  padding-left: 5px;
-  color: white;
-  opacity: 0.7;
-  font-weight: 300;
-}
 
 
 /*
